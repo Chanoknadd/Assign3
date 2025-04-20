@@ -36,7 +36,7 @@ ax.scatter(centers[:, 0], centers[:, 1], c='red', s=200, alpha=0.75, label='Cent
 ax.set_title("k-Means Clustering")
 ax.legend()
 
-cluster_length = st.slider("Configure Clustering", 2.0, 10.0, 4.0, layout="left")
+cluster_length = st.slider("Configure Clustering", 2.0, 10.0, 4.0)
 
 # Show in Streamlit
 st.pyplot(fig)
